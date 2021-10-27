@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&family=Titillium+Web:wght@300;400&display=swap');
+
+body {
+  text-align: center;
+  background-color: #C2C5AA;
+  color: #936639;
+  line-height: 30px;
+}
+
+#profile-pic {
+  width: 350px;
+  height: 250x;
+  border-radius: 10%;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%) ;
+}
+
+.description {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+    border-radius: 4px;
+    margin: 15px 0px;
+    text-align: center;
+}
+
+h3, h1 {
+  font-family: 'Dosis', sans-serif;
+  color: black;
+  font-weight: 400px;
+}
+
+p {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  padding: 5px;
+}
+
+.description a:hover {
+  background-color: #582F0E;
+  color: white;
+  transition: 1s ease;
+}
+
+.description a {
+  border: solid;
+  border-width: 2px;
+  border-color: #414833;
+  color: #414833;
+}
+
+.social-media li {
+  display: inline-block;
+  font-size: 36px;
+  transition: 1s ease;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #936639;
+}
+
+.social-media li:hover a {
+  color: white;
+}
+
+.social-media li a {
+  transition: 1s ease
+}
+
+.social-media li:hover {
+  transform: scale(1.5);
+}
